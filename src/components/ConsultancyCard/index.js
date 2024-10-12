@@ -4,6 +4,13 @@ import styled from "styled-components";
 const ConsultancyCardStyle = styled.div`
   max-width: 640px;
   width: 100%;
+  margin: auto;
+  img {
+    width: 100%;
+  }
+  @media screen and (min-width: 1260px) {
+    margin: unset;
+  }
   .content {
     max-width: 564px;
     width: 100%;
@@ -36,6 +43,14 @@ const ConsultancyCardStyle = styled.div`
       li {
         margin-bottom: 8px;
       }
+      &.flex {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+          max-width: 50%;
+          width: 100%;
+        }
+      }
     }
   }
 
@@ -44,22 +59,24 @@ const ConsultancyCardStyle = styled.div`
   }
 `;
 
-const ConsultancyCard = () => {
+const ConsultancyCard = ({ heading, content, img, listing, page }) => {
   return (
     <ConsultancyCardStyle>
-      <img src="../../consultancy-card.svg" alt="Services" />
+      <img src={`../../${img}`} alt="Services" />
       <div className="content">
         <div className="heading-sec">
-          <h2 className="h1">Carbon Removal</h2>
+          <h2 className="h1">{heading}</h2>
         </div>{" "}
-        <p>
-          Carbon Removal projects focus on sustainable solutions for reducing
-          atmospheric carbon.
-        </p>
+        <p>{content}</p>
         <h3 className="s1">Range Of Projects:</h3>
-        <ul className="s1">
-          <li>Afforestation</li>
-          <li>Biochar</li>
+        <ul
+          className={`s1 ${
+            listing.length === 4 && page !== "consultancy" ? "flex" : ""
+          }`}
+        >
+          {listing?.map((list) => {
+            return <li>{list}</li>;
+          })}
         </ul>
       </div>
     </ConsultancyCardStyle>

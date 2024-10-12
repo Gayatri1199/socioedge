@@ -16,10 +16,27 @@ const SimplifyingClimateStyle = styled.div`
   }
 
   .actions {
-    display: flex;
+    
     gap: 24px;
     margin-top: 34px;
     justify-content: center;
+    text-align:center;
+    span{
+      display:none;
+    }
+    h3{
+      margin-bottom:24px;
+    }
+    @media screen and (min-width:1260px;){
+      display: flex;
+      text-align:unset;
+      span{
+        display:inline-block;
+      }
+     h3{
+      margin-bottom:0px;
+    }
+    }
   }
 
   .banner {
@@ -35,9 +52,12 @@ const SimplifyingClimateStyle = styled.div`
     margin-bottom:64px;
 }
 .banner-sections{
-    display:flex;
+    
     gap:32px;
     justify-content:center;
+    @media screen and (min-width:1260px){
+    display:flex;
+    }
     h4{
         color:#013E93;
         margin-bottom:24px;

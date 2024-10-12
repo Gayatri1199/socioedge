@@ -11,9 +11,17 @@ const ServicesCardStyle = styled.div`
     margin-bottom: 16px;
   }
   .service-block {
-    display: flex;
     gap: 24px;
     align-items: center;
+    @media screen and (min-width: 768px) {
+      display: flex;
+    }
+    .image-section {
+      img {
+        width: 100%;
+      }
+    }
+
     p {
       margin-bottom: 16px;
     }
@@ -30,22 +38,17 @@ const ServicesCardStyle = styled.div`
   }
 `;
 
-const ServicesCard = () => {
+const ServicesCard = ({ heading, content, img }) => {
   return (
     <ServicesCardStyle>
-      <h3 className="h1">Climate Action Projects</h3>
+      <h3 className="h1">{heading}</h3>
       <div className="service-block">
         <div className="image-section">
           {" "}
-          <img src="../../services-1.svg" alt="Services" />
+          <img src={`../../${img}`} alt="Services" />
         </div>
         <div className="content-section">
-          <p className="b1">
-            Our Carbon Removal efforts feature afforestation and biochar, while
-            our Carbon Offset services include clean cooking, solar lighting,
-            waste management, and renewable energy solutions to reduce carbon
-            footprints and promote sustainability.
-          </p>
+          <p className="b1">{content}</p>
           <button className="a1">
             Find Out More <img src="../../arrow-right.png" alt="Services" />
           </button>

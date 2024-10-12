@@ -5,6 +5,10 @@ const OurVisionStyle = styled.div`
   padding: 104px 68px;
   display: flex;
   gap: 32px;
+  flex-direction: column;
+  @media screen and (min-width: 1260px) {
+    flex-direction: row;
+  }
   .content {
     max-width: 540px;
     width: 100%;
@@ -30,11 +34,17 @@ const OurVisionStyle = styled.div`
   .cards-sec {
     display: flex;
     gap: 32px;
+    flex-direction: column;
+    @media screen and (min-width: 1260px) {
+      flex-direction: row;
+    }
 
     .card {
-      max-width: 350px;
       width: 100%;
       text-align: center;
+      @media screen and (min-width: 1260px) {
+        max-width: 350px;
+      }
       .upper-sec {
         padding: 36px;
         background: #22580e;
@@ -78,10 +88,10 @@ const OurVision = () => {
           </div>
         </div>
         <div className="card">
-          <div className="upper-sec d2">OUR VISION</div>
+          <div className="upper-sec d2">OUR MISSION</div>
           <div className="lower-sec s2">
-            To simplify the social development and climate sector to make it a
-            mass movement.
+            To provide implementable, robust, and relevant project solutions for
+            our clients.
           </div>
         </div>
       </div>

@@ -8,6 +8,11 @@ const ContactUsStripStyle = styled.div`
   padding: 40px;
   align-items: center;
   margin-top: 104px;
+  gap: 32px;
+  flex-direction: column;
+  @media screen and (min-width: 1260px) {
+    flex-direction: row;
+  }
   h3 {
     max-width: 191px;
     width: 100%;

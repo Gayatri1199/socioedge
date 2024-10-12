@@ -3,6 +3,10 @@ import styled from "styled-components";
 
 const MileStoneStyle = styled.div`
   padding: 104px 0px;
+  .milestone-sec {
+    overflow: scroll;
+  }
+
   &.pt-0 {
     padding-top: 0px;
   }
@@ -18,22 +22,38 @@ const MileStoneStyle = styled.div`
       justify-content: space-between;
       max-width: 1125px;
       margin: auto;
+      margin-left: 80px;
+      gap: 183px;
+      white-space: nowrap;
     }
     .vector {
       display: flex;
-      justify-content: center;
+      // justify-content: center;
       align-items: center;
       margin-top: 24px;
+      margin-left: 80px;
       .circle {
         width: 64px;
         height: 64px;
-        background: #4591c4;
+        // background: #4591c4;
         border-radius: 100px;
       }
       .sep {
         min-width: 198px;
         height: 4px;
-        background: #4591c4;
+        background: red;
+        &:nth-of-type(2) {
+          background: #c8e8f7;
+        }
+        &:nth-of-type(4) {
+          background: #4591c4;
+        }
+        &:nth-of-type(6) {
+          background: #013e93;
+        }
+        &:nth-of-type(8) {
+          background: #669537;
+        }
       }
     }
   }
@@ -42,10 +62,12 @@ const MileStoneStyle = styled.div`
     display: flex;
     justify-content: space-between;
     margin-top: 32px;
+    gap: 42px;
     p {
       max-width: 224px;
       width: 100%;
       text-align: center;
+      min-width: 224px;
     }
   }
   .consultancy-sec {
@@ -53,6 +75,12 @@ const MileStoneStyle = styled.div`
       margin-top: 32px;
       max-width: 1304px;
       width: 100%;
+      margin-left: 40px;
+      gap: 93px;
+      @media screen and (min-width: 1260px) {
+        margin-left: 0px;
+        gap: unset;
+      }
       h4 {
         margin: auto;
       }
@@ -60,6 +88,13 @@ const MileStoneStyle = styled.div`
     .vector {
       max-width: 1304px;
       width: 100%;
+      .circle {
+        background: #4591c4;
+        min-width: 64px;
+      }
+      .sep {
+        background: #4591c4 !important;
+      }
     }
     p {
       text-align: center;
@@ -132,15 +167,25 @@ const MileStone = ({ page }) => {
               <h4 className="s1">AUG 2024</h4>
             </div>
             <div className="vector">
-              <div className="circle"></div>
+              <div className="circle">
+                <img src="../../mile-1.svg" alt="Services" />
+              </div>
               <div className="sep"></div>
-              <div className="circle"></div>
+              <div className="circle">
+                <img src="../../mile-2.svg" alt="Services" />
+              </div>
               <div className="sep"></div>
-              <div className="circle"></div>
+              <div className="circle">
+                <img src="../../mile-3.svg" alt="Services" />
+              </div>
               <div className="sep"></div>
-              <div className="circle"></div>
+              <div className="circle">
+                <img src="../../mile-4.svg" alt="Services" />
+              </div>
               <div className="sep"></div>
-              <div className="circle"></div>
+              <div className="circle">
+                <img src="../../mile-5.svg" alt="Services" />
+              </div>
             </div>
             <div className="content">
               <p className="b1">

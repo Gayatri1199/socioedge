@@ -8,6 +8,10 @@ const ExpThoughtsStyle = styled.div`
   display: flex;
   gap: 128px;
   background: #edf8fc;
+  flex-direction: column;
+  @media screen and (min-width: 1260px) {
+    flex-direction: row;
+  }
 
   .content {
     max-width: 496px;
@@ -17,12 +21,51 @@ const ExpThoughtsStyle = styled.div`
   .slider-content {
     max-width: 680px;
     width: 100%;
+    margin-top: 68px;
     margin-bottom: -200px;
+  }
+
+  button.btn {
+    max-width: 200px;
+    width: 100%;
+    color: #fff;
+    margin-top: 32px;
+    display: block;
+    border-radius: 100px;
+    background: #013e93;
+    border: none;
+    padding: 10px;
+  }
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+    top: -50px;
+    left: unset;
+    right: 20px;
+  }
+
+  .slick-prev {
+    right: 60px;
+  }
+
+  .slick-next {
+    &::before {
+      transform: scaleX(-1);
+    }
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    content: url(../../slider-arrow-right-solid.svg);
+    width: 24px;
+    height: 24px;
+
+    display: block;
   }
 `;
 
 var settings = {
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 500,
   slidesToShow: 2,
@@ -39,7 +82,7 @@ const ExpThoughts = () => {
           We bring you in-depth reporting about the people and ideas making a
           difference.
         </span>
-        <button className="s2">Read More</button>
+        <button className="s2 btn">Read More</button>
       </div>
       <div className="slider-content">
         <Slider {...settings}>

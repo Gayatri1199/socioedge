@@ -9,10 +9,15 @@ const ThoughtsCardStyle = styled.div`
     padding: 16px 24px;
   }
   .lower-sec {
-    padding-top: 24px;
     img {
       width: 100%;
     }
+  }
+  button {
+    margin-top: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
   }
 `;
 const ThoughtsCard = () => {
@@ -23,7 +28,7 @@ const ThoughtsCard = () => {
         <button className="a1">Read More</button>
       </div>
       <div className="lower-sec">
-        <img src="../../services-1.svg" alt="Services" />
+        <img src="../../exp-thoughts-1.svg" alt="Services" />
       </div>
     </ThoughtsCardStyle>
   );

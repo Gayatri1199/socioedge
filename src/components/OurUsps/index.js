@@ -22,6 +22,9 @@ const OurUspsStyle = styled.div`
     gap: 28px;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 1088px;
+    width: 100%;
+    margin: auto;
   }
 `;
 
@@ -37,7 +40,7 @@ const OurUsps = () => {
       <div className="usp-sections">
         <div className="usp-block">
           <div className="image">
-            <img src="../../services-1.svg" alt="Services" />
+            <img src="../../usp-1.svg" alt="Services" />
           </div>
           <div className="content">
             <h4 className="h2">Quality Assurance</h4>
@@ -46,47 +49,47 @@ const OurUsps = () => {
         </div>
         <div className="usp-block">
           <div className="image">
-            <img src="../../services-1.svg" alt="Services" />
+            <img src="../../usp-2.svg" alt="Services" />
           </div>
           <div className="content">
-            <h4 className="h2">Quality Assurance</h4>
-            <p className="a5">RELIABILITY</p>
+            <h4 className="h2">Impact Driven</h4>
+            <p className="a5">DESIGN THINKING</p>
           </div>
         </div>
         <div className="usp-block">
           <div className="image">
-            <img src="../../services-1.svg" alt="Services" />
+            <img src="../../usp-3.svg" alt="Services" />
           </div>
           <div className="content">
-            <h4 className="h2">Quality Assurance</h4>
-            <p className="a5">RELIABILITY</p>
+            <h4 className="h2">Result Oriented</h4>
+            <p className="a5">INTEGRITY</p>
           </div>
         </div>
         <div className="usp-block">
           <div className="image">
-            <img src="../../services-1.svg" alt="Services" />
+            <img src="../../usp-4.svg" alt="Services" />
           </div>
           <div className="content">
-            <h4 className="h2">Quality Assurance</h4>
-            <p className="a5">RELIABILITY</p>
+            <h4 className="h2">Business Process</h4>
+            <p className="a5">INNOVATION</p>
           </div>
         </div>
         <div className="usp-block">
           <div className="image">
-            <img src="../../services-1.svg" alt="Services" />
+            <img src="../../usp-5.svg" alt="Services" />
           </div>
           <div className="content">
-            <h4 className="h2">Quality Assurance</h4>
-            <p className="a5">RELIABILITY</p>
+            <h4 className="h2">Scalability</h4>
+            <p className="a5">STRONG PIPELINE</p>
           </div>
         </div>
         <div className="usp-block">
           <div className="image">
-            <img src="../../services-1.svg" alt="Services" />
+            <img src="../../usp-6.svg" alt="Services" />
           </div>
           <div className="content">
-            <h4 className="h2">Quality Assurance</h4>
-            <p className="a5">RELIABILITY</p>
+            <h4 className="h2">Transparency</h4>
+            <p className="a5">BUSINESS EXCELLENCE</p>
           </div>
         </div>
       </div>

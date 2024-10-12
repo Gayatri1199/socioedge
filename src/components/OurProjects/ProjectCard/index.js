@@ -23,15 +23,11 @@ const ProjectCardStyle = styled.div`
     }
   }
 `;
-const ProjectCard = () => {
+const ProjectCard = ({ heading, content }) => {
   return (
     <ProjectCardStyle>
-      <h4 className="h1">Quality credits</h4>
-      <p className="b1">
-        Recognizing excellence in sustainability, quality credits incentivize
-        responsible practices and drive better outcomes across industries. As
-        Henry Ford said, "Quality means doing it right when no one is looking."
-      </p>
+      <h4 className="h1">{heading}</h4>
+      <p className="b1">{content}</p>
     </ProjectCardStyle>
   );
 };

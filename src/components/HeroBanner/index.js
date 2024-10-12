@@ -7,12 +7,20 @@ const HeroBannerStyle = styled.div`
     max-width: 1008px;
     margin: 48px auto;
   }
+  img {
+    width: 100%;
+  }
 `;
 
 const HeroBanner = ({ page }) => {
   return (
     <HeroBannerStyle>
-      <img src="../../../herobanner.svg" alt="Hero Banner" />
+      {page === "services" ? (
+        <img src="../../../service-main-banner.svg" alt="Hero Banner" />
+      ) : (
+        <img src="../../../herobanner.svg" alt="Hero Banner" />
+      )}
+
       {page !== "services" ? (
         <p className="s1">
           We are a dedicated team committed to simplifying climate action

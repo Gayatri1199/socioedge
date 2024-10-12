@@ -11,10 +11,19 @@ const OurTeamStyle = styled.div`
     display: flex;
     margin-top: 32px;
     gap: 24px;
+    // flex-direction: column;
+    overflow: auto;
+    justify-content: center;
+    @media screen and (min-width: 1260px) {
+      flex-direction: row;
+      justify-content: undet;
+    }
     .team-block {
       max-width: 308px;
+      min-width: 308px;
       width: 100%;
       text-align: center;
+      margin: auto;
       .upper-block {
         padding: 16px;
         color: #fff;
@@ -26,8 +35,13 @@ const OurTeamStyle = styled.div`
         }
       }
       .lower-block {
-        padding: 32px 24px;
+        padding: 0px 24px;
+        // padding-top: 32px;
         background: #ffffff;
+        min-height: 216px;
+        p {
+          padding-top: 32px;
+        }
       }
     }
   }
@@ -54,43 +68,43 @@ const OurTeam = () => {
         </div>
         <div className="team-block">
           <div className="upper-block">
-            <h4 className="h2">Gaurav Gaur</h4>
-            <p className="a5">FOUNDER & CEO</p>
+            <h4 className="h2">Dr. Jude P</h4>
+            <p className="a5">CHIEF CARBON OFFICER</p>
           </div>
           <div className="lower-block b1">
             <p>
-              A business and sustainability professional with expertise in
-              carbon and impact programs, he has indepth knowledge of community
-              dynamics across regions. He is certified in GRI Standards and ISO
-              14064 (Scopes 1, 2, and 3).
+              An alumnus of the University of Oxford, Cambridge, and the London
+              School of Economics, Dr. Jude has extensive experience in carbon
+              markets and community projects worldwide. He plays a crucial role
+              in advancing the team’s carbon portfolio.
             </p>
           </div>
         </div>
         <div className="team-block">
           <div className="upper-block">
-            <h4 className="h2">Gaurav Gaur</h4>
-            <p className="a5">FOUNDER & CEO</p>
+            <h4 className="h2">Pradeep Gaur</h4>
+            <p className="a5">ADVISOR - PUBIC POLICY</p>
           </div>
           <div className="lower-block b1">
             <p>
-              A business and sustainability professional with expertise in
-              carbon and impact programs, he has indepth knowledge of community
-              dynamics across regions. He is certified in GRI Standards and ISO
-              14064 (Scopes 1, 2, and 3).
+              A public policy veteran with 44 years of experience in soil and
+              water conservation, rural development, Panchayat Raj, MNREGA, and
+              IRGY (U). He has worked extensively on renewable energy,
+              forestation and community development aspects of rural India.
             </p>
           </div>
         </div>
         <div className="team-block">
           <div className="upper-block">
-            <h4 className="h2">Gaurav Gaur</h4>
-            <p className="a5">FOUNDER & CEO</p>
+            <h4 className="h2">Abhishek Sharma</h4>
+            <p className="a5">PARTNER - RENEWABLES</p>
           </div>
           <div className="lower-block b1">
             <p>
-              A business and sustainability professional with expertise in
-              carbon and impact programs, he has indepth knowledge of community
-              dynamics across regions. He is certified in GRI Standards and ISO
-              14064 (Scopes 1, 2, and 3).
+              Abhishek brings a wealth of experience in diverse fields such as
+              renewable energy and hydroponics technology. His collaborative
+              approach has enabled the team to build strong partnerships with
+              policymakers and stakeholders.
             </p>
           </div>
         </div>

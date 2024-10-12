@@ -2,6 +2,7 @@
   font-family: "Open Sans", sans-serif;
   margin: 0px;
   padding: 0px;
+  box-sizing:border-box;
 }
 .App {
   max-width:1440px;

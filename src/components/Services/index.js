@@ -12,6 +12,7 @@ const ServicesStyle = styled.div`
   .services {
     display: flex;
     gap: 24px;
+    overflow: auto;
     img {
       width: 100%;
     }
@@ -19,6 +20,9 @@ const ServicesStyle = styled.div`
 
   .service-block {
     margin-bottom: 20px;
+    max-width: 308px;
+    min-width: 308px;
+    width: 100%;
   }
 
   button {
@@ -54,10 +58,22 @@ const Services = () => {
         </div>
         <div className="service-block">
           <div className="image">
-            <img src="../../services-1.svg" alt="Services" />
+            <img src="../../service-2.svg" alt="Services" />
           </div>
           <div className="content">
-            <h3 className="h2">Carbon Projects</h3>
+            <h3 className="h2">CSR / SDG Programs</h3>
+            <p className="a2">
+              Renewable energy access, healthcare, skill development and diverse
+              subjects.
+            </p>
+          </div>
+        </div>
+        <div className="service-block">
+          <div className="image">
+            <img src="../../service-3.svg" alt="Services" />
+          </div>
+          <div className="content">
+            <h3 className="h2">Learning & Development</h3>
             <p className="a2">
               We design a variety of carbon offset and removal programs for our
               partners.
@@ -66,25 +82,13 @@ const Services = () => {
         </div>
         <div className="service-block">
           <div className="image">
-            <img src="../../services-1.svg" alt="Services" />
+            <img src="../../service-4.svg" alt="Services" />
           </div>
           <div className="content">
-            <h3 className="h2">Carbon Projects</h3>
+            <h3 className="h2">Consultancy Services</h3>
             <p className="a2">
-              We design a variety of carbon offset and removal programs for our
-              partners.
-            </p>
-          </div>
-        </div>
-        <div className="service-block">
-          <div className="image">
-            <img src="../../services-1.svg" alt="Services" />
-          </div>
-          <div className="content">
-            <h3 className="h2">Carbon Projects</h3>
-            <p className="a2">
-              We design a variety of carbon offset and removal programs for our
-              partners.
+              Carbon project registration, validation support, independent
+              consultant to complete project life, capacity building.
             </p>
           </div>
         </div>

@@ -3,6 +3,13 @@ import styled from "styled-components";
 
 const OurDesignStyle = styled.div`
   text-align: center;
+  padding: 0px 16px;
+  @media screen and (min-width: 1260px) {
+    padding: 0px;
+  }
+  img {
+    width: 100%;
+  }
   h2 {
     margin-bottom: 16px;
   }
