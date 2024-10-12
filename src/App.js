@@ -1,28 +1,27 @@
 import "./App.css";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Services from "./pages/Services";
+import ActionProjects from "./pages/ActionProjects";
+import Consultancy from "./pages/Consultancy";
 import Header from "./components/Header";
-import HeroBanner from "./components/HeroBanner";
-import Services from "./components/Services";
-import SimplifyingClimate from "./components/SimplifyingClimate";
-import OurUsps from "./components/OurUsps";
-import OurVision from "./components/OurVision";
-import OurTeam from "./components/OurTeam";
-import MileStone from "./components/Milestone";
-import ExpThoughts from "./components/ExpThoughts";
+import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Header />
-      <HeroBanner />
-      <Services />
-      <SimplifyingClimate />
-      <OurUsps />
-      <OurVision />
-      <OurTeam />
-      <MileStone />
-      <ExpThoughts />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/actionproject" element={<ActionProjects />} />
+        <Route path="/consultancy" element={<Consultancy />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
-export default App;
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);

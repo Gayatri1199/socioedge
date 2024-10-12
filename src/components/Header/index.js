@@ -6,6 +6,8 @@ const HeaderStyle = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1440px;
+  margin: auto;
 
   a {
     margin-right: 40px;
