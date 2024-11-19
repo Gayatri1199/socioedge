@@ -1,8 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 const OurTeamStyle = styled.div`
-  padding: 40px 68px;
+  padding: 24px 16px;
   background: #f2f5f8;
+  @media screen and (min-width: 768px) {
+    padding: 40px 68px;
+  }
   h3 {
     text-align: center;
   }
@@ -11,19 +14,26 @@ const OurTeamStyle = styled.div`
     display: flex;
     margin-top: 32px;
     gap: 24px;
-    // flex-direction: column;
+    flex-direction: column;
     overflow: auto;
     justify-content: center;
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+    }
+
     @media screen and (min-width: 1260px) {
       flex-direction: row;
       justify-content: undet;
     }
     .team-block {
-      max-width: 308px;
-      min-width: 308px;
       width: 100%;
       text-align: center;
       margin: auto;
+
+      @media screen and (min-width: 768px) {
+        max-width: 308px;
+        min-width: 308px;
+      }
       .upper-block {
         padding: 16px;
         color: #fff;
@@ -50,8 +60,10 @@ const OurTeamStyle = styled.div`
 const OurTeam = () => {
   return (
     <OurTeamStyle>
-      <h3 className="d1">Our Team</h3>
-      <div className="teams-sec">
+      <h3 className="d1" data-aos="fade-up">
+        Our Team
+      </h3>
+      <div className="teams-sec" data-aos="fade-up">
         <div className="team-block">
           <div className="upper-block">
             <h4 className="h2">Gaurav Gaur</h4>

@@ -13,6 +13,7 @@ import styled from "styled-components";
 const HomeStyle = styled.div`
   max-width: 1440px;
   margin: auto;
+  overflow: hidden;
 `;
 
 const Home = () => {

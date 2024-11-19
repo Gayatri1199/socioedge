@@ -2,10 +2,13 @@ import React from "react";
 import styled from "styled-components";
 
 const OurVisionStyle = styled.div`
-  padding: 104px 68px;
+  padding: 56px 16px;
   display: flex;
   gap: 32px;
   flex-direction: column;
+  @media screen and (min-width: 768px) {
+    padding: 104px 68px;
+  }
   @media screen and (min-width: 1260px) {
     flex-direction: row;
   }
@@ -20,8 +23,7 @@ const OurVisionStyle = styled.div`
       margin-bottom: 16px;
     }
 
-    button {
-      max-width: 200px;
+    a {
       width: 100%;
       border-radius: 100px;
       padding: 9px;
@@ -29,6 +31,12 @@ const OurVisionStyle = styled.div`
       border: none;
       color: #fff;
       margin-top: 24px;
+      display: inline-block;
+      text-align: center;
+      text-decoration: none;
+      @media screen and (min-width: 768px) {
+        max-width: 200px;
+      }
     }
   }
   .cards-sec {
@@ -46,14 +54,21 @@ const OurVisionStyle = styled.div`
         max-width: 350px;
       }
       .upper-sec {
-        padding: 36px;
+        padding: 24px;
         background: #22580e;
         color: #fff;
+        @media screen and (min-width: 768px) {
+          padding: 36px;
+        }
       }
 
       .lower-sec {
-        padding: 54px 42px;
+        padding: 16px 32px;
         background: #edf8fc;
+        min-height: 192px;
+        @media screen and (min-width: 768px) {
+          min-height: 302px;
+        }
       }
     }
   }
@@ -62,8 +77,10 @@ const OurVisionStyle = styled.div`
 const OurVision = () => {
   return (
     <OurVisionStyle>
-      <div className="content">
-        <h3 className="d1">Let’s end the climate crisis</h3>
+      <div className="content" data-aos="fade-right">
+        <h3 className="d1">
+          Let's contribute to climate action for a sustainable future
+        </h3>
         <p className="b1">
           Founded by a team passionate about social and environmental
           development, Socioedge boasts a talent pool with 106 years of combined
@@ -77,21 +94,28 @@ const OurVision = () => {
           processes, preserving data integrity and establishing effective
           monitoring mechanisms for accurate impact measurement and reporting.
         </p>
-        <button className="s2">About Us</button>
+        <a href="/aboutus" className="s2">
+          About Us
+        </a>
       </div>
-      <div className="cards-sec">
+      <div className="cards-sec" data-aos="fade-left">
         <div className="card">
           <div className="upper-sec d2">OUR VISION</div>
           <div className="lower-sec s2">
-            To simplify the social development and climate sector to make it a
-            mass movement.
+            Our vision is to accelerate climate action by simplifying greenhouse
+            gas emission reduction for businesses. Through innovative processes
+            and solutions, we aim to engage stakeholders in creating a
+            sustainable and healthier planet for future generations.
           </div>
         </div>
         <div className="card">
           <div className="upper-sec d2">OUR MISSION</div>
           <div className="lower-sec s2">
-            To provide implementable, robust, and relevant project solutions for
-            our clients.
+            Our mission is to advance global efforts in greenhouse gas emission
+            reduction by developing innovative carbon projects and providing
+            expert consultancy. We are dedicated to helping businesses achieve
+            their net zero and sustainability goals through effective, scalable
+            solutions that drive meaningful environmental impact.
           </div>
         </div>
       </div>

@@ -4,13 +4,20 @@ import Slider from "react-slick";
 import ThoughtsCard from "./ThoughtsCard";
 
 const ExpThoughtsStyle = styled.div`
-  padding: 56px 68px;
+  padding: 24px 16px;
   display: flex;
-  gap: 128px;
+  gap: 0px;
   background: #edf8fc;
   flex-direction: column;
+  margin-bottom: 250px;
+  @media screen and (min-width: 768px) {
+    padding: 56px 68px;
+  }
+
   @media screen and (min-width: 1260px) {
     flex-direction: row;
+    gap: 128px;
+    margin-bottom: 150px;
   }
 
   .content {
@@ -21,12 +28,14 @@ const ExpThoughtsStyle = styled.div`
   .slider-content {
     max-width: 680px;
     width: 100%;
-    margin-top: 68px;
+    margin-top: 24px;
     margin-bottom: -200px;
+    @media screen and (min-width: 768px) {
+      margin-top: 68px;
+    }
   }
 
   button.btn {
-    max-width: 200px;
     width: 100%;
     color: #fff;
     margin-top: 32px;
@@ -35,6 +44,10 @@ const ExpThoughtsStyle = styled.div`
     background: #013e93;
     border: none;
     padding: 10px;
+
+    @media screen and (min-width: 768px) {
+      max-width: 200px;
+    }
   }
   .slick-prev,
   .slick-next {
@@ -62,6 +75,12 @@ const ExpThoughtsStyle = styled.div`
 
     display: block;
   }
+
+  .regular.slider {
+    display: flex;
+    overflow: scroll;
+    gap: 24px;
+  }
 `;
 
 var settings = {
@@ -70,12 +89,18 @@ var settings = {
   speed: 500,
   slidesToShow: 2,
   slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1259,
+      settings: "unslick",
+    },
+  ],
 };
 
 const ExpThoughts = () => {
   return (
     <ExpThoughtsStyle>
-      <div className="content">
+      <div className="content" data-aos="fade-right">
         <h3 className="d1">Expression of Thoughts</h3>
         <p className="h1">Latest Stories</p>
         <span className="b1">
@@ -84,11 +109,20 @@ const ExpThoughts = () => {
         </span>
         <button className="s2 btn">Read More</button>
       </div>
-      <div className="slider-content">
+      <div className="slider-content" data-aos="fade-left">
         <Slider {...settings}>
-          <ThoughtsCard />
-          <ThoughtsCard />
-          <ThoughtsCard />
+          <ThoughtsCard
+            img="exp-thoughts-1.svg"
+            content="Redefining the CSR Strategy for remote areas"
+          />
+          <ThoughtsCard
+            content="Missing Piece in Climate Action"
+            img="exp-thoughts-2.svg"
+          />
+          <ThoughtsCard
+            content="Redefining the CSR Strategy for remote areas"
+            img="exp-thoughts-1.svg"
+          />
         </Slider>
       </div>
     </ExpThoughtsStyle>

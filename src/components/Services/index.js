@@ -2,8 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 const ServicesStyle = styled.div`
-  padding: 40px 68px;
+  padding: 24px 16px;
   background: #f2f5f8;
+  @media screen and (min-width: 768px) {
+    padding: 40px 68px;
+  }
 
   h2 {
     text-align: center;
@@ -13,16 +16,22 @@ const ServicesStyle = styled.div`
     display: flex;
     gap: 24px;
     overflow: auto;
+    margin-right: -15px;
+    @media screen and (min-width: 768px) {
+      margin-right: 0px;
+    }
     img {
       width: 100%;
     }
   }
 
   .service-block {
-    margin-bottom: 20px;
     max-width: 308px;
     min-width: 308px;
     width: 100%;
+    @media screen and (min-width: 768px) {
+      margin-bottom: 20px;
+    }
   }
 
   button {
@@ -35,21 +44,27 @@ const ServicesStyle = styled.div`
     margin: auto;
     margin-top: 32px;
     display: block;
-    padding: 4px;
+    padding: 12px;
+    @media screen and (min-width: 768px) {
+      padding: 4px;
+    }
   }
 `;
 
 const Services = () => {
   return (
     <ServicesStyle>
-      <h2 className="d1"> Our Services</h2>
-      <div className="services">
+      <h2 className="d1" data-aos="fade-up">
+        {" "}
+        Our Services
+      </h2>
+      <div className="services" data-aos="fade-up">
         <div className="service-block">
           <div className="image">
-            <img src="../../services-1.svg" alt="Services" />
+            <img src="../../services/services-1.svg" alt="Services" />
           </div>
           <div className="content">
-            <h3 className="h2">Carbon Projects</h3>
+            <h3 className="h2">Climate Projects</h3>
             <p className="a2">
               We design a variety of carbon offset and removal programs for our
               partners.
@@ -58,10 +73,10 @@ const Services = () => {
         </div>
         <div className="service-block">
           <div className="image">
-            <img src="../../service-2.svg" alt="Services" />
+            <img src="../../services/services-2.svg" alt="Services" />
           </div>
           <div className="content">
-            <h3 className="h2">CSR / SDG Programs</h3>
+            <h3 className="h2">Impact Programs</h3>
             <p className="a2">
               Renewable energy access, healthcare, skill development and diverse
               subjects.
@@ -70,19 +85,19 @@ const Services = () => {
         </div>
         <div className="service-block">
           <div className="image">
-            <img src="../../service-3.svg" alt="Services" />
+            <img src="../../services/services-3.svg" alt="Services" />
           </div>
           <div className="content">
             <h3 className="h2">Learning & Development</h3>
             <p className="a2">
-              We design a variety of carbon offset and removal programs for our
-              partners.
+              A diverse range of programs uniquely designed for corporate
+              partners to build both behavioral and technical skills.
             </p>
           </div>
         </div>
         <div className="service-block">
           <div className="image">
-            <img src="../../service-4.svg" alt="Services" />
+            <img src="../../services/services-4.svg" alt="Services" />
           </div>
           <div className="content">
             <h3 className="h2">Consultancy Services</h3>

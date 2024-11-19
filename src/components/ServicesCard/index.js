@@ -17,6 +17,13 @@ const ServicesCardStyle = styled.div`
       display: flex;
     }
     .image-section {
+      width: 100%;
+
+      @media screen and (min-width: 768px) {
+        max-width: 312px;
+        width: 100%;
+        min-width: 312px;
+      }
       img {
         width: 100%;
       }
@@ -24,6 +31,10 @@ const ServicesCardStyle = styled.div`
 
     p {
       margin-bottom: 16px;
+      margin-top: 24px;
+      @media screen and (min-width: 768px) {
+        margin-top: 0px;
+      }
     }
     button {
       background: transparent;
@@ -38,9 +49,9 @@ const ServicesCardStyle = styled.div`
   }
 `;
 
-const ServicesCard = ({ heading, content, img }) => {
+const ServicesCard = ({ heading, content, img, animation }) => {
   return (
-    <ServicesCardStyle>
+    <ServicesCardStyle data-aos={`fade-${animation}`}>
       <h3 className="h1">{heading}</h3>
       <div className="service-block">
         <div className="image-section">

@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const ThoughtsCardStyle = styled.div`
   max-width: 324px;
+  min-width: 324px;
   width: 100%;
   background: #fff;
   .upper-sec {
@@ -19,16 +20,20 @@ const ThoughtsCardStyle = styled.div`
     border: none;
     cursor: pointer;
   }
+
+  p {
+    min-height: 64px;
+  }
 `;
-const ThoughtsCard = () => {
+const ThoughtsCard = ({ content, img }) => {
   return (
     <ThoughtsCardStyle>
       <div className="upper-sec">
-        <p className="s1">Redefining the CSR Strategy for remote areas</p>
+        <p className="s1">{content}</p>
         <button className="a1">Read More</button>
       </div>
       <div className="lower-sec">
-        <img src="../../exp-thoughts-1.svg" alt="Services" />
+        <img src={`../../${img}`} alt="Services" />
       </div>
     </ThoughtsCardStyle>
   );

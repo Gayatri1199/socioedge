@@ -23,7 +23,6 @@ const ActionProjectStyle = styled.div`
 `;
 
 const ActionProject = () => {
-  const array1 = ["Apple", "Banana", "Cherry"];
   return (
     <ActionProjectStyle>
       <Banner />
@@ -31,19 +30,42 @@ const ActionProject = () => {
         <ConsultancyCard
           heading="Carbon Removal"
           content="Carbon Removal projects focus on sustainable solutions for reducing atmospheric carbon."
-          listing={["Afforestation", "Biochar"]}
-          img="consultancy-card.svg"
+          listing={[
+            {
+              title: "Afforestation",
+              image: "/action-project-page/afforestation.svg",
+            },
+            {
+              title: "Biochar",
+              image: "/action-project-page/biochar.svg",
+            },
+          ]}
+          img="/action-project-page/action-project-card-one.svg"
+          animation="right"
         />
         <ConsultancyCard
           heading="Carbon Offset"
           content="Carbon offset projects reduce emissions, promoting sustainability and environmental balance."
           listing={[
-            "Clean Cooking",
-            "Solar Lighting",
-            "Waste Management",
-            "Renewable Energy",
+            {
+              title: "Clean Cooking",
+              image: "/action-project-page/clean-cooking-small.svg",
+            },
+            {
+              title: "Solar Lighting",
+              image: "/action-project-page/solar-lightning.svg",
+            },
+            {
+              title: "Waste Management",
+              image: "/action-project-page/waste-management.svg",
+            },
+            {
+              title: "Renewable Energy",
+              image: "/action-project-page/biochar.svg",
+            },
           ]}
-          img="consultancy-card.svg"
+          img="/action-project-page/clean-cooking.svg"
+          animation="left"
         />
       </div>
       <OurDesign />

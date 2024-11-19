@@ -19,7 +19,7 @@ const OurDesignStyle = styled.div`
 `;
 const OurDesign = () => {
   return (
-    <OurDesignStyle>
+    <OurDesignStyle data-aos="fade-up">
       <h2>How We Design</h2>
       <p>
         Showcasing innovative solutions, our projects set new benchmarks in
