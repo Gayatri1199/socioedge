@@ -26,6 +26,7 @@ const ImageStripStyle = styled.div`
   img {
     margin-right: 16px;
     margin-bottom: 16px;
+    max-width: 100px;
     @media screen and (max-width: 767px) {
       margin-bottom: 16px;
       max-width: 64px;
@@ -51,14 +52,14 @@ const ImageStrip = () => {
         </div>
       </div>
       <div className="images">
-        <img src="../../ImageStrip/image-1.svg" alt="Image-Strip" />
-        <img src="../../ImageStrip/image-1.svg" alt="Image-Strip" />
-        <img src="../../ImageStrip/image-1.svg" alt="Image-Strip" />
-        <img src="../../ImageStrip/image-1.svg" alt="Image-Strip" />
-        <img src="../../ImageStrip/image-1.svg" alt="Image-Strip" />
-        <img src="../../ImageStrip/image-1.svg" alt="Image-Strip" />
-        <img src="../../ImageStrip/image-1.svg" alt="Image-Strip" />
-        <img src="../../ImageStrip/image-1.svg" alt="Image-Strip" />
+        <img src="../../upper-banner/1.png" alt="Image-Strip" />
+        <img src="../../upper-banner/3.png" alt="Image-Strip" />
+        <img src="../../upper-banner/4.png" alt="Image-Strip" />
+        <img src="../../upper-banner/5.png" alt="Image-Strip" />
+        <img src="../../upper-banner/7.png" alt="Image-Strip" />
+        <img src="../../upper-banner/8.png" alt="Image-Strip" />
+        <img src="../../upper-banner/13.png" alt="Image-Strip" />
+        <img src="../../upper-banner/15.png" alt="Image-Strip" />
       </div>
     </ImageStripStyle>
   );

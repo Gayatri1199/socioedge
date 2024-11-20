@@ -241,7 +241,7 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="img" data-aos="fade-left">
-          <img src="../../About-us-earth.svg" alt="About" />
+          <img src="../../about-us.gif" alt="About" />
         </div>
       </div>
       <AboutUsVision />

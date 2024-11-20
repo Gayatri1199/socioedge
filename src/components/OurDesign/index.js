@@ -25,7 +25,7 @@ const OurDesign = () => {
         Showcasing innovative solutions, our projects set new benchmarks in
         sustainability, impact, and long-term value creation.
       </p>
-      <img src="../../Our-Design.svg" alt="Services" />
+      <img src="../../climate-action.png" alt="Services" />
     </OurDesignStyle>
   );
 };
