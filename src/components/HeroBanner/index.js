@@ -26,14 +26,24 @@ const HeroBanner = ({ page }) => {
   return (
     <HeroBannerStyle>
       {page === "services" ? (
-        <img src="../../../service-main-banner.svg" alt="Hero Banner" />
+        <img
+          src="../../../service-main-banner.svg"
+          alt="Main banner for services"
+        />
       ) : page === "aboutus" ? (
         <img
           src="../../../aboutus-page/about-us-banner.svg"
-          alt="Hero Banner"
+          alt="About us page banner"
         />
       ) : (
-        <img src="../../../herobanner.svg" alt="Hero Banner" />
+        <video width="100%" autoPlay muted loop>
+          <source
+            src="../../../Socioedge_Trailer_Home_Page.mp4"
+            type="video/mp4"
+          />
+          <source src="mov_bbb.ogg" type="video/ogg" />
+          Your browser does not support the video tag.
+        </video>
       )}
 
       {page !== "services" ? (

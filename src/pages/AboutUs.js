@@ -24,7 +24,7 @@ const AboutUsStyle = styled.div`
     position: relative;
     background: #fff;
     @media screen and (min-width: 768px) {
-      margin-top: -90px;
+      margin-top: -220px;
       padding: 40px;
       max-width: 988px;
     }
@@ -204,6 +204,14 @@ const AboutUsStyle = styled.div`
       display: none !important;
     }
   }
+
+  .img-wrapper {
+    display: flex;
+    gap: 20px;
+    img {
+      max-width: 49%;
+    }
+  }
 `;
 const AboutUs = () => {
   return (
@@ -246,11 +254,20 @@ const AboutUs = () => {
       </div>
       <AboutUsVision />
       <div className="banner" data-aos="fade-up">
-        <img
-          src="../../about-us-banner.svg"
-          alt="About"
-          className="desk-device"
-        />
+        <div className="img-wrapper">
+          {" "}
+          <img
+            src="../../About_Us_Values.jpg"
+            alt="About"
+            className="desk-device"
+          />{" "}
+          <img
+            src="../../About_Us_Values.jpg"
+            alt="About"
+            className="desk-device"
+          />
+        </div>
+
         <img
           src="../../../aboutus-page/about-us-mobile-banner.svg"
           alt="About"
@@ -270,16 +287,12 @@ const AboutUs = () => {
         </div>
 
         <img
-          src="../../aboutus-page/about-us-usp-desktop.svg"
+          src="../../Values_Desktop.png"
           alt="About"
           className="desk-device"
         />
 
-        <img
-          src="../../aboutus-page/about-us-usp-mobile.svg"
-          alt="About"
-          className="mob-device"
-        />
+        <img src="../../Values_Mobile.png" alt="About" className="mob-device" />
       </div>
 
       <div className="our-team" data-aos="fade-up">

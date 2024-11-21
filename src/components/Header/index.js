@@ -172,10 +172,6 @@ const Header = () => {
         { label: "Climate Projects", url: "/actionproject" },
         { label: "Impact Projects", url: "void:0" },
         { label: "Consultancy", url: "/consultancy" },
-        {
-          label: "Entrepreneurial & Skills",
-          url: "void:0",
-        },
         { label: "Capacity Building", url: "void:0" },
       ],
     },
@@ -198,6 +194,7 @@ const Header = () => {
     {
       title: "Why Us",
       content: [
+        { label: "About Us", url: "void:0" },
         { label: "History", url: "void:0" },
         { label: "Our USPs", url: "void:0" },
         { label: "Our Team", url: "/ourteam" },
@@ -277,16 +274,16 @@ const Header = () => {
           <span className="menu-item">
             <a href="/services">Services</a>
             <span className="content-wrapper">
-              <a href="void:0">Climate Projects</a>
+              <a href="/actionproject">Climate Projects</a>
               <a href="void:0">Impact Projects</a>
               <a href="/consultancy">Consultancy</a>
-              <a href="void:0">Entrepreneurial & Skills</a>
+
               <a href="void:0">Capacity Building</a>
             </span>
           </span>
 
           <span className="menu-item">
-            <a href="/">Climate Projects</a>
+            <a href="/actionproject">Climate Projects</a>
             <span className="content-wrapper">
               <a href="void:0">Carbon Removal</a>
               <a href="void:0">Carbon Offset</a>
@@ -300,6 +297,7 @@ const Header = () => {
           <span className="menu-item">
             <a href="/aboutus">Why Us</a>
             <span className="content-wrapper">
+              <a href="/aboutus">About Us</a>
               <a href="void:0">History</a>
               <a href="void:0">Our USPs</a>
               <a href="/ourteam">Our Team</a>
