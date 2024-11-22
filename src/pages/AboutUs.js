@@ -257,12 +257,12 @@ const AboutUs = () => {
         <div className="img-wrapper">
           {" "}
           <img
-            src="../../About_Us_Values.jpg"
+            src="../../About_Us_Values.JPG"
             alt="About"
             className="desk-device"
           />{" "}
           <img
-            src="../../About_Us_Values.jpg"
+            src="../../About_Us_Values.JPG"
             alt="About"
             className="desk-device"
           />
