@@ -9,6 +9,7 @@ const OurDesignStyle = styled.div`
   }
   img {
     width: 100%;
+    max-width: 1030px;
   }
   h2 {
     margin-bottom: 16px;

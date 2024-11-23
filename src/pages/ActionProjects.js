@@ -7,8 +7,8 @@ import OurProjects from "../components/OurProjects";
 
 const ActionProjectStyle = styled.div`
   .cards-container {
-    margin: 64px 0px;
-    padding: 68px 16px;
+    margin: 56px 0px;
+    padding: 0px 16px;
     display: flex;
     gap: 24px;
     justify-content: center;

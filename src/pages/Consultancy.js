@@ -6,8 +6,8 @@ import MileStone from "../components/Milestone";
 
 const ConsultancyStyle = styled.div`
   .cards-container {
-    margin: 64px 0px;
-    padding: 68px 16px;
+    margin: 56px 0px;
+    padding: 0px 16px;
     display: flex;
     gap: 24px;
     justify-content: center;
@@ -26,50 +26,50 @@ const Consultancy = () => {
       <div className="cards-container">
         <ConsultancyCard
           heading="Climate Action Projects"
-          content="Carbon Removal projects focus on sustainable solutions for reducing atmospheric carbon."
+          content="Building pipelines for startups to attract investors and monetize emission reductions effectively."
           listing={[
             {
               title: "Risk assessment & feasibility study",
-              image: "/action-project-page/clean-cooking-small.svg",
+              image: "/consultancy-images/C_Banner1_1.jpg",
             },
             {
               title: "Build project pipeline",
-              image: "/action-project-page/solar-lightning.svg",
+              image: "/consultancy-images/C_Banner1_2.jpg",
             },
             {
               title: "End to End consultancy",
-              image: "/action-project-page/waste-management.svg",
+              image: "/consultancy-images/C_Banner1_3.jpg",
             },
             {
               title: "Project registration & Validation support",
-              image: "/action-project-page/biochar.svg",
+              image: "/consultancy-images/C_Banner1_4.jpg",
             },
           ]}
-          img="consultancy-card.svg"
+          img="consultancy-images/C_Banner1.jpg"
           animation="right"
         />
         <ConsultancyCard
           heading="Impact Projects"
-          content="Carbon offset projects reduce emissions, promoting sustainability and environmental balance."
+          content="Customized programs aligned with the CSR or impact goals of the partner organization."
           listing={[
             {
               title: "Project design & initial assessment",
-              image: "/action-project-page/clean-cooking-small.svg",
+              image: "/consultancy-images/C_Banner2_1.jpg",
             },
             {
               title: "SDG Impact measurement",
-              image: "/action-project-page/solar-lightning.svg",
+              image: "/consultancy-images/C_Banner2_2.jpg",
             },
             {
               title: "Community mobilization & operational support",
-              image: "/action-project-page/waste-management.svg",
+              image: "/consultancy-images/C_Banner2_3.jpg",
             },
             {
               title: "End to End consultancy ",
-              image: "/action-project-page/biochar.svg",
+              image: "/consultancy-images/C_Banner2_4.jpg",
             },
           ]}
-          img="/action-project-page/import-projects.svg"
+          img="consultancy-images/C_Banner2.jpg"
           page="consultancy"
           animation="left"
         />

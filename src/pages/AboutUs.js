@@ -210,6 +210,7 @@ const AboutUsStyle = styled.div`
     gap: 20px;
     img {
       max-width: 49%;
+      max-height: 360px;
     }
   }
 `;
@@ -257,7 +258,7 @@ const AboutUs = () => {
         <div className="img-wrapper">
           {" "}
           <img
-            src="../../About_Us_Values.JPG"
+            src="../../About_Us_Values1.jpg"
             alt="About"
             className="desk-device"
           />{" "}

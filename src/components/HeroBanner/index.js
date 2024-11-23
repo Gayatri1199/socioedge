@@ -32,15 +32,12 @@ const HeroBanner = ({ page }) => {
         />
       ) : page === "aboutus" ? (
         <img
-          src="../../../aboutus-page/about-us-banner.svg"
+          src="../../../About_Us_Hero_Image.jpg"
           alt="About us page banner"
         />
       ) : (
         <video width="100%" autoPlay muted loop>
-          <source
-            src="../../../Socioedge_Trailer_Home_Page.mp4"
-            type="video/mp4"
-          />
+          <source src="../../../Socioedge-Website-final.mp4" type="video/mp4" />
           <source src="mov_bbb.ogg" type="video/ogg" />
           Your browser does not support the video tag.
         </video>

@@ -162,6 +162,10 @@ const HeaderStyle = styled.div`
       display: none;
     }
   }
+
+  a[href="javascript:void(0)"] {
+    cursor: default;
+  }
 `;
 
 const Header = () => {
@@ -170,23 +174,23 @@ const Header = () => {
       title: "Services",
       content: [
         { label: "Climate Projects", url: "/actionproject" },
-        { label: "Impact Projects", url: "void:0" },
+        { label: "Impact Projects", url: "javascript:void(0)" },
         { label: "Consultancy", url: "/consultancy" },
-        { label: "Capacity Building", url: "void:0" },
+        { label: "Capacity Building", url: "javascript:void(0)" },
       ],
     },
     {
       title: "Climate Project",
       content: [
-        { label: "Carbon Removal", url: "void:0" },
-        { label: "Carbon Offsets", url: "void:0" },
+        { label: "Carbon Removal", url: "javascript:void(0)" },
+        { label: "Carbon Offsets", url: "javascript:void(0)" },
         {
           label: "Waste Management",
-          url: "void:0",
+          url: "javascript:void(0)",
         },
         {
           label: "Renewable Energy",
-          url: "void:0",
+          url: "javascript:void(0)",
         },
       ],
     },
@@ -194,13 +198,13 @@ const Header = () => {
     {
       title: "Why Us",
       content: [
-        { label: "About Us", url: "void:0" },
-        { label: "History", url: "void:0" },
-        { label: "Our USPs", url: "void:0" },
+        { label: "About Us", url: "javascript:void(0)" },
+        { label: "History", url: "javascript:void(0)" },
+        { label: "Our USPs", url: "javascript:void(0)" },
         { label: "Our Team", url: "/ourteam" },
-        { label: "Testimonials", url: "void:0" },
-        { label: "Milestones", url: "void:0" },
-        { label: "Contact Us", url: "void:0" },
+        { label: "Testimonials", url: "javascript:void(0)" },
+        { label: "Milestones", url: "javascript:void(0)" },
+        { label: "Contact Us", url: "javascript:void(0)" },
       ],
     },
   ];
@@ -275,35 +279,35 @@ const Header = () => {
             <a href="/services">Services</a>
             <span className="content-wrapper">
               <a href="/actionproject">Climate Projects</a>
-              <a href="void:0">Impact Projects</a>
+              <a href="javascript:void(0)">Impact Projects</a>
               <a href="/consultancy">Consultancy</a>
 
-              <a href="void:0">Capacity Building</a>
+              <a href="javascript:void(0)">Capacity Building</a>
             </span>
           </span>
 
           <span className="menu-item">
             <a href="/actionproject">Climate Projects</a>
             <span className="content-wrapper">
-              <a href="void:0">Carbon Removal</a>
-              <a href="void:0">Carbon Offset</a>
-              <a href="void:0">Waste Management</a>
-              <a href="void:0">Renewable Energy</a>
+              <a href="javascript:void(0)">Carbon Removal</a>
+              <a href="javascript:void(0)">Carbon Offset</a>
+              <a href="javascript:void(0)">Waste Management</a>
+              <a href="javascript:void(0)">Renewable Energy</a>
             </span>
           </span>
 
-          <a href="void:(0)">Media</a>
-          <a href="/">Latest Projects</a>
+          <a href="javascript:void(0)">Media</a>
+          <a href="javascript:void(0)">Latest Projects</a>
           <span className="menu-item">
             <a href="/aboutus">Why Us</a>
             <span className="content-wrapper">
               <a href="/aboutus">About Us</a>
-              <a href="void:0">History</a>
-              <a href="void:0">Our USPs</a>
+              <a href="javascript:void(0)">History</a>
+              <a href="javascript:void(0)">Our USPs</a>
               <a href="/ourteam">Our Team</a>
-              <a href="void:0">Testimonials</a>
-              <a href="void:0">Milestones</a>
-              <a href="void:0">Contact Us</a>
+              <a href="javascript:void(0)">Testimonials</a>
+              <a href="javascript:void(0)">Milestones</a>
+              <a href="javascript:void(0)">Contact Us</a>
             </span>
           </span>
 
@@ -311,10 +315,10 @@ const Header = () => {
         </div>
         <div className="mob-device">
           <Accordion items={accordionItems} page="header" />
-          <a href="void:0" style={{ padding: "0" }}>
+          <a href="javascript:void(0)" style={{ padding: "0" }}>
             Media
           </a>
-          <a href="void:0" style={{ padding: "0" }}>
+          <a href="javascript:void(0)" style={{ padding: "0" }}>
             Live Projects
           </a>
           <button>Enquire Now</button>

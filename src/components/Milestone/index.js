@@ -186,7 +186,7 @@ const MileStone = ({ page }) => {
               <h2 className="b1">PROJECT ASSESSMENT</h2>
               <p>
                 Assessment of risk and potentials, ER estimation, Due diligence
-                on a project.
+                on a project..
               </p>
             </div>
             <div className="box">
@@ -311,8 +311,7 @@ const MileStone = ({ page }) => {
                 truly global organisation.
               </p>
               <p className="b1">
-                Grown into a truly global initiative, with a team spanning two
-                continents. 
+                Completion of one project with impact spread over 48 villages.
               </p>
               <p className="b1">
                 MOUs signed for four more projects on Carbon offset and Carbon

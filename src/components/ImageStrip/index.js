@@ -26,7 +26,7 @@ const ImageStripStyle = styled.div`
   img {
     margin-right: 16px;
     margin-bottom: 16px;
-    max-width: 100px;
+    max-width: 120px;
     @media screen and (max-width: 767px) {
       margin-bottom: 16px;
       max-width: 64px;
@@ -35,7 +35,14 @@ const ImageStripStyle = styled.div`
 
   .images {
     display: flex;
-    overflow: auto;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+    @media screen and (min-width: 1260px) {
+      overflow: auto;
+      margin-top: 0px;
+      flex-wrap: nowrap;
+    }
   }
 `;
 const ImageStrip = () => {
