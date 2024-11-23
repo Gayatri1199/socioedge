@@ -97,7 +97,7 @@ const Services = () => {
         </div>
         <div className="service-block">
           <div className="image">
-            <img src="../../services/services-4.svg" alt="Services" />
+            <img src="../../services/services-4-main.svg" alt="Services" />
           </div>
           <div className="content">
             <h3 className="h2">Consultancy Services</h3>
