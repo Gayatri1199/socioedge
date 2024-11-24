@@ -176,7 +176,7 @@ const Header = () => {
         { label: "Climate Projects", url: "/actionproject" },
         { label: "Impact Projects", url: "/impactproject" },
         { label: "Consultancy", url: "/consultancy" },
-        { label: "Capacity Building", url: "javascript:void(0)" },
+        { label: "Capacity Building", url: "/capacitybuilding" },
       ],
     },
     {
@@ -282,7 +282,7 @@ const Header = () => {
               <a href="/impactproject">Impact Projects</a>
               <a href="/consultancy">Consultancy</a>
 
-              <a href="javascript:void(0)">Capacity Building</a>
+              <a href="/capacitybuilding">Capacity Building</a>
             </span>
           </span>
 
