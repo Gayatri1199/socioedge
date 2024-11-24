@@ -174,7 +174,7 @@ const Header = () => {
       title: "Services",
       content: [
         { label: "Climate Projects", url: "/actionproject" },
-        { label: "Impact Projects", url: "javascript:void(0)" },
+        { label: "Impact Projects", url: "/impactproject" },
         { label: "Consultancy", url: "/consultancy" },
         { label: "Capacity Building", url: "javascript:void(0)" },
       ],
@@ -279,7 +279,7 @@ const Header = () => {
             <a href="/services">Services</a>
             <span className="content-wrapper">
               <a href="/actionproject">Climate Projects</a>
-              <a href="javascript:void(0)">Impact Projects</a>
+              <a href="/impactproject">Impact Projects</a>
               <a href="/consultancy">Consultancy</a>
 
               <a href="javascript:void(0)">Capacity Building</a>

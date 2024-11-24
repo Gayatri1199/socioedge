@@ -10,7 +10,6 @@ const ConsultancyCardStyle = styled.div`
     height: 414px;
     object-fit: cover;
     @media screen and (min-width: 768px) {
-      height: unset;
       object-fit: unset;
     }
   }

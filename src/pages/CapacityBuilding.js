@@ -22,54 +22,50 @@ const CapacityBuildingStyle = styled.div`
 const CapacityBuilding = () => {
   return (
     <CapacityBuildingStyle>
-      <Banner page="consultancy" />
+      <Banner page="capacityBuilding" />
       <div className="cards-container">
         <ConsultancyCard
-          heading="Climate Action Projects"
-          content="Carbon Removal projects focus on sustainable solutions for reducing atmospheric carbon."
+          heading="Net Zero Portfolio"
+          content="Offering tailored strategies and solutions to help organizations achieve their carbon neutrality goals."
           listing={[
             {
-              title: "Risk assessment & feasibility study",
-              image: "/action-project-page/clean-cooking-small.svg",
+              title: "Carbon projects induction program",
+              image: "/capacity-building/CB_Banner_1_1.jpg",
             },
             {
-              title: "Build project pipeline",
-              image: "/action-project-page/solar-lightning.svg",
+              title: "ESG & Sustainability reporting",
+              image: "/capacity-building/CB_Banner_1_2.jpg",
             },
             {
-              title: "End to End consultancy",
-              image: "/action-project-page/waste-management.svg",
-            },
-            {
-              title: "Project registration & Validation support",
-              image: "/action-project-page/biochar.svg",
+              title: "Carbon project registration",
+              image: "/capacity-building/CB_Banner_1_3.jpg",
             },
           ]}
-          img="consultancy-card.svg"
+          img="/capacity-building/CB_Banner_1.jpg"
           animation="right"
         />
         <ConsultancyCard
-          heading="Impact Projects"
-          content="Carbon offset projects reduce emissions, promoting sustainability and environmental balance."
+          heading="Learning & Development"
+          content="Designing impactful programs to advance knowledge and drive sustainable practices across industries and communities."
           listing={[
             {
-              title: "Project design & initial assessment",
-              image: "/action-project-page/clean-cooking-small.svg",
+              title: "Advance sales program",
+              image: "/capacity-building/CB_Banner_2_1.jpg",
             },
             {
-              title: "SDG Impact measurement",
-              image: "/action-project-page/solar-lightning.svg",
+              title: "Sales and Service Network",
+              image: "/capacity-building/CB_Banner_2_2.jpg",
             },
             {
-              title: "Community mobilization & operational support",
-              image: "/action-project-page/waste-management.svg",
+              title: "First Time Managers",
+              image: "/capacity-building/CB_Banner_2_3.jpeg",
             },
             {
-              title: "End to End consultancy ",
-              image: "/action-project-page/biochar.svg",
+              title: "Terra Leadership Program ",
+              image: "/capacity-building/CB_Banner_2_4.jpg",
             },
           ]}
-          img="/action-project-page/import-projects.svg"
+          img="/capacity-building/CB_Banner_2.jpg"
           page="consultancy"
           animation="left"
         />

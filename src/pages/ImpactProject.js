@@ -54,67 +54,71 @@ const ImpactProject = () => {
       <Banner page="impactproject" />
       <div className="cards-container">
         <ConsultancyCard
-          heading="Carbon Removal"
-          content="Carbon Removal projects focus on sustainable solutions for reducing atmospheric carbon."
+          heading="Renewable Energy Access"
+          content="Delivering sustainable and affordable energy solutions to empower underserved communities globally."
           listing={[
             {
-              title: "Afforestation",
-              image: "/action-project-page/afforestation.svg",
+              title: "Solar Powered Villages",
+              image: "/impact-projects/I_Banner_1_1.jpg",
             },
             {
-              title: "Biochar",
-              image: "/action-project-page/biochar.svg",
+              title: "Application Based Interventions",
+              image: "/impact-projects/I_Banner_1_2.jpg",
+            },
+            {
+              title: "Agriculture",
+              image: "/impact-projects/I_Banner_1_3.jpg",
+            },
+            {
+              title: "Community Infrastructure",
+              image: "/impact-projects/I_Banner_1_4.jpg",
             },
           ]}
-          img="/action-project-page/action-project-card-one.svg"
+          img="/impact-projects/I_Banner_1.jpg"
           animation="right"
         />
         <ConsultancyCard
-          heading="Carbon Offset"
-          content="Carbon offset projects reduce emissions, promoting sustainability and environmental balance."
+          heading="Public Infrastructure"
+          content="Developing resilient and inclusive infrastructure projects that promote equitable access and sustainable growth."
           listing={[
             {
-              title: "Clean Cooking",
-              image: "/action-project-page/clean-cooking-small.svg",
+              title: "Solar powered public healthcare system",
+              image: "/impact-projects/I_Banner_2_1.jpg",
             },
             {
-              title: "Solar Lighting",
-              image: "/action-project-page/solar-lightning.svg",
+              title: "Street Lights",
+              image: "/impact-projects/I_Banner_2_2.jpg",
             },
             {
-              title: "Waste Management",
-              image: "/action-project-page/waste-management.svg",
-            },
-            {
-              title: "Renewable Energy",
-              image: "/action-project-page/biochar.svg",
+              title: "Education Sector",
+              image: "/impact-projects/I_Banner_2_3.jpg",
             },
           ]}
-          img="/action-project-page/clean-cooking.svg"
+          img="/impact-projects/I_Banner_2.jpg"
           animation="left"
         />
       </div>
       <div className="below-card-container">
         {" "}
         <ConsultancyCard
-          heading="Carbon Removal"
-          content="Carbon Removal projects focus on sustainable solutions for reducing atmospheric carbon."
+          heading="Capacity Building"
+          content="Enhancing skills and resources to empower communities and organizations for lasting, sustainable development."
           listing={[
             {
               title:
                 "Service network expansion through community entrepreneurship development",
-              image: "/action-project-page/afforestation.svg",
+              image: "/impact-projects/I_Banner_3_1.png",
             },
             {
               title: "Women Health",
-              image: "/action-project-page/biochar.svg",
+              image: "/impact-projects/I_Banner_3_2.jpg",
             },
             {
               title: "Digital Empowerment",
-              image: "/action-project-page/biochar.svg",
+              image: "/impact-projects/I_Banner_3_3.jpg",
             },
           ]}
-          img="/action-project-page/action-project-card-one.svg"
+          img="/impact-projects/I_Banner_3.JPG"
           animation="right"
         />
       </div>

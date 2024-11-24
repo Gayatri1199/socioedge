@@ -34,6 +34,26 @@ const Banner = ({ page }) => {
             the specific needs of our partners.
           </p>
         </div>
+      ) : page === "impactproject" ? (
+        <>
+          <h2 className="d1">Impact Projects</h2>
+          <p className="s1">
+            Our SDG-aligned impact projects focus on long-term sustainability,
+            addressing critical needs like clean energy, public health, and
+            infrastructure in underserved regions to create transformative,
+            lasting change.
+          </p>
+        </>
+      ) : page === "capacityBuilding" ? (
+        <>
+          <h2 className="d1">Capacity Building</h2>
+          <p className="s1">
+            We design tailored programs that empower communities and
+            organizations with the skills, tools, and knowledge needed to drive
+            sustainable development, fostering resilience and self-reliance for
+            a better future.
+          </p>
+        </>
       ) : (
         <>
           <h2 className="d1">Climate Action Projects</h2>

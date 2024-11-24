@@ -45,7 +45,7 @@ const Consultancy = () => {
               image: "/consultancy-images/C_Banner1_4.jpg",
             },
           ]}
-          img="consultancy-images/C_Banner1.jpg"
+          img="consultancy-images/C_Banner_main1.png"
           animation="right"
         />
         <ConsultancyCard
@@ -69,7 +69,7 @@ const Consultancy = () => {
               image: "/consultancy-images/C_Banner2_4.jpg",
             },
           ]}
-          img="consultancy-images/C_Banner2.jpg"
+          img="consultancy-images/C_Banner1-main.png"
           page="consultancy"
           animation="left"
         />

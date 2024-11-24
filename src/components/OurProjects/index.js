@@ -42,20 +42,21 @@ const OurProjects = ({ page }) => {
         {page === "impactproject" ? (
           <div className="project-container">
             <ProjectCard
-              heading="Quality credits"
-              content='Recognizing excellence in sustainability, quality credits incentivize responsible practices and drive better outcomes across industries. As Henry Ford said, "Quality means doing it right when no one is looking."'
-            />
-            <ProjectCard
               heading="High SDGs"
               content="Initiatives that align with high Sustainable Development Goals (SDGs) emphasize global well-being and balance, aiming to leave no one behind, much like the UN's 2030 Agenda for Sustainable Development."
             />
             <ProjectCard
-              heading="Data-driven"
-              content={`Informed by precise data, decisions are sharper and more efficient, echoing the sentiment, "Without data, you're just another person with an opinion" — W. Edwards Deming.`}
+              heading="Quality credits"
+              content='Recognizing excellence in sustainability, quality credits incentivize responsible practices and drive better outcomes across industries. As Henry Ford said, "Quality means doing it right when no one is looking."'
+            />
+
+            <ProjectCard
+              heading="Long-term impact"
+              content={`Focusing on enduring solutions, long-term impact strategies build sustainable futures that benefit generations to come, following the ethos of "Think big, start small, but most of all, start."`}
             />
             <ProjectCard
-              heading="Data-driven"
-              content={`Informed by precise data, decisions are sharper and more efficient, echoing the sentiment, "Without data, you're just another person with an opinion" — W. Edwards Deming.`}
+              heading="Capacity building"
+              content={`Empowering individuals and institutions, capacity building strengthens the ability to address complex challenges effectively, embodying Nelson Mandela's belief that "Education is the most powerful weapon which you can use to change the world."`}
             />
           </div>
         ) : (

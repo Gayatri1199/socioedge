@@ -88,7 +88,7 @@ const Services = () => {
             <img src="../../services/services-3.svg" alt="Services" />
           </div>
           <div className="content">
-            <h3 className="h2">Learning & Development</h3>
+            <h3 className="h2">Capacity Building</h3>
             <p className="a2">
               A diverse range of programs uniquely designed for corporate
               partners to build both behavioral and technical skills.
@@ -97,7 +97,7 @@ const Services = () => {
         </div>
         <div className="service-block">
           <div className="image">
-            <img src="../../services/services-4-main.svg" alt="Services" />
+            <img src="../../Home_Page_Consultancy.png" alt="Services" />
           </div>
           <div className="content">
             <h3 className="h2">Consultancy Services</h3>
