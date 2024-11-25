@@ -296,7 +296,7 @@ const Header = () => {
             </span>
           </span>
 
-          <a href="javascript:void(0)">Media</a>
+          <a href="/media">Media</a>
           <a href="javascript:void(0)">Latest Projects</a>
           <span className="menu-item">
             <a href="/aboutus">Why Us</a>
@@ -315,7 +315,7 @@ const Header = () => {
         </div>
         <div className="mob-device">
           <Accordion items={accordionItems} page="header" />
-          <a href="javascript:void(0)" style={{ padding: "0" }}>
+          <a href="/media" style={{ padding: "0" }}>
             Media
           </a>
           <a href="javascript:void(0)" style={{ padding: "0" }}>
