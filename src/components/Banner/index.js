@@ -54,6 +54,14 @@ const Banner = ({ page }) => {
             a better future.
           </p>
         </>
+      ) : page === "media" ? (
+        <>
+          <h2 className="d1">Media Gallery</h2>
+          <p className="s1">
+            We design specific impact programs that are relevant to both the
+            community and partner’s vision.
+          </p>
+        </>
       ) : (
         <>
           <h2 className="d1">Climate Action Projects</h2>

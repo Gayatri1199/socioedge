@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 const ContactUsStyle = styled.div`
+  max-width: 1440px;
+  margin: auto;
   .banner {
     height: 500px;
     display: flex;

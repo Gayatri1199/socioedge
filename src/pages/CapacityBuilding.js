@@ -50,11 +50,11 @@ const CapacityBuilding = () => {
           listing={[
             {
               title: "Advance sales program",
-              image: "/capacity-building/CB_Banner_2_1.jpg",
+              image: "/capacity-building/CB_Banner_2_1.JPG",
             },
             {
               title: "Sales and Service Network",
-              image: "/capacity-building/CB_Banner_2_2.jpg",
+              image: "/capacity-building/CB_Banner_2_2.JPG",
             },
             {
               title: "First Time Managers",
@@ -65,7 +65,7 @@ const CapacityBuilding = () => {
               image: "/capacity-building/CB_Banner_2_4.jpg",
             },
           ]}
-          img="/capacity-building/CB_Banner_2.jpg"
+          img="/capacity-building/CB_Banner_2.JPG"
           page="consultancy"
           animation="left"
         />

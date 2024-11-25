@@ -15,6 +15,7 @@ import "aos/dist/aos.css";
 import ImpactProject from "./pages/ImpactProject";
 import CapacityBuilding from "./pages/CapacityBuilding";
 import ContactUs from "./pages/ContactUs";
+import Media from "./pages/Media";
 
 export default function App() {
   useEffect(() => {
@@ -33,6 +34,7 @@ export default function App() {
         <Route path="/impactproject" element={<ImpactProject />} />
         <Route path="/capacitybuilding" element={<CapacityBuilding />} />
         <Route path="/contactus" element={<ContactUs />} />
+        <Route path="/media" element={<Media />} />
       </Routes>
       <Footer />
     </BrowserRouter>
