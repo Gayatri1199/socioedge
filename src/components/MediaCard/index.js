@@ -30,7 +30,7 @@ const MediaCard = ({ background, content, name, designation }) => {
   return (
     <MediaCardStyle data-aos="fade-up" className={`${background}`}>
       <div className="content s1">{content}</div>
-      <p className="name h2">-{name}</p>
+      <p className="name h2">{name}</p>
       <span className="b1">{designation}</span>
     </MediaCardStyle>
   );

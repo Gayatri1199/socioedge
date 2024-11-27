@@ -23,10 +23,13 @@ const ImpactProjectStyle = styled.div`
   .below-card-container {
     margin-bottom: 104px;
     .consultancy-card {
-      max-width: 1440px;
+      max-width: 1300px;
       margin: auto;
+      img {
+        height: 100%;
+      }
       .content {
-        max-width: 1180px;
+        max-width: 1000px;
         text-align: center;
         ul {
           justify-content: center;

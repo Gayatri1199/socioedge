@@ -26,6 +26,9 @@ const AboutUsStyle = styled.div`
     @media screen and (min-width: 768px) {
       margin-top: -220px;
       padding: 40px;
+      max-width: 650px;
+    }
+    @media screen and (min-width: 1260px) {
       max-width: 988px;
     }
     h2 {

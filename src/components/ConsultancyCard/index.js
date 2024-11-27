@@ -7,7 +7,7 @@ const ConsultancyCardStyle = styled.div`
   margin: auto;
   img {
     width: 100%;
-    height: 414px;
+    height: 286px;
     object-fit: cover;
     @media screen and (min-width: 768px) {
       object-fit: unset;

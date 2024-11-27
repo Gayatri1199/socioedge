@@ -20,6 +20,13 @@ const HeroBannerStyle = styled.div`
       object-fit: unset;
     }
   }
+
+  .about-us-banner {
+    height: 400px;
+    @media screen and (min-width: 1260px) {
+      height: 600px;
+    }
+  }
 `;
 
 const HeroBanner = ({ page }) => {
@@ -34,6 +41,7 @@ const HeroBanner = ({ page }) => {
         <img
           src="../../../About_Us_Hero_Image.jpg"
           alt="About us page banner"
+          className="about-us-banner"
         />
       ) : (
         <video width="100%" autoPlay muted loop>
@@ -43,7 +51,7 @@ const HeroBanner = ({ page }) => {
         </video>
       )}
 
-      {page !== "services" ? (
+      {page !== "services" || page !== "aboutus" ? (
         <p className="s1">
           Pioneering transformative, community-driven climate projects with
           lasting impact. 
