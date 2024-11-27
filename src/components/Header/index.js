@@ -204,7 +204,7 @@ const Header = () => {
         { label: "Our Team", url: "/ourteam" },
         { label: "Testimonials", url: "javascript:void(0)" },
         { label: "Milestones", url: "javascript:void(0)" },
-        { label: "Contact Us", url: "javascript:void(0)" },
+        { label: "Contact Us", url: "/contactus" },
       ],
     },
   ];
@@ -307,7 +307,7 @@ const Header = () => {
               <a href="/ourteam">Our Team</a>
               <a href="javascript:void(0)">Testimonials</a>
               <a href="javascript:void(0)">Milestones</a>
-              <a href="javascript:void(0)">Contact Us</a>
+              <a href="/contactus">Contact Us</a>
             </span>
           </span>
 
