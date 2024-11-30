@@ -40,7 +40,7 @@ const GetinTouchStyle = styled.div`
 
 const GetinTouch = () => {
   return (
-    <GetinTouchStyle>
+    <GetinTouchStyle className="get-in-touch">
       <h2 className="d2">Get In Touch With Us</h2>
       <p className="s1">Let us know how we can help!</p>
       <div className="action-btns">

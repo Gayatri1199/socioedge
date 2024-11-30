@@ -16,6 +16,7 @@ import ImpactProject from "./pages/ImpactProject";
 import CapacityBuilding from "./pages/CapacityBuilding";
 import ContactUs from "./pages/ContactUs";
 import Media from "./pages/Media";
+import LiveProject from "./pages/LiveProject";
 
 export default function App() {
   useEffect(() => {
@@ -35,6 +36,7 @@ export default function App() {
         <Route path="/capacitybuilding" element={<CapacityBuilding />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/media" element={<Media />} />
+        <Route path="/liveproject" element={<LiveProject />} />
       </Routes>
       <Footer />
     </BrowserRouter>

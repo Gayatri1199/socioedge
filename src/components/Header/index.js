@@ -297,7 +297,7 @@ const Header = () => {
           </span>
 
           <a href="/media">Media</a>
-          <a href="javascript:void(0)">Latest Projects</a>
+          <a href="/liveproject">Latest Projects</a>
           <span className="menu-item">
             <a href="/aboutus">Why Us</a>
             <span className="content-wrapper">
@@ -318,7 +318,7 @@ const Header = () => {
           <a href="/media" style={{ padding: "0" }}>
             Media
           </a>
-          <a href="javascript:void(0)" style={{ padding: "0" }}>
+          <a href="/liveproject" style={{ padding: "0" }}>
             Live Projects
           </a>
           <button>Enquire Now</button>
