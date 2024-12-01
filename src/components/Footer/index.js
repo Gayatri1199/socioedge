@@ -255,7 +255,7 @@ const Footer = () => {
           </div>
           <div className="footer-block">
             <h4>Contact</h4>
-            <a href="mailto:someone@example.com" className="s2">
+            <a href="mailto:info@socioedge.com" className="s2">
               <img src="../../Footer/Email.svg" alt="Email" />
               info@socioedge.com
             </a>
