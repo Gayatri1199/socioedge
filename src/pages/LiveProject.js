@@ -28,7 +28,7 @@ const LiveProjectStyle = styled.div`
       left: 0;
       right: 0;
       bottom: 0;
-      background: #ffffff85; /* Adjust the opacity here */
+      background: rgb(255 255 255 / 82%); /* Adjust the opacity here */
       z-index: 1;
     }
   }

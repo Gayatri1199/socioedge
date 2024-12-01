@@ -17,6 +17,8 @@ import CapacityBuilding from "./pages/CapacityBuilding";
 import ContactUs from "./pages/ContactUs";
 import Media from "./pages/Media";
 import LiveProject from "./pages/LiveProject";
+import CarbonRemoval from "./pages/CarbonRemoval";
+import CarbonOffset from "./pages/CarbonOffset";
 
 export default function App() {
   useEffect(() => {
@@ -37,6 +39,8 @@ export default function App() {
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/media" element={<Media />} />
         <Route path="/liveproject" element={<LiveProject />} />
+        <Route path="/carbonremoval" element={<CarbonRemoval />} />
+        <Route path="/carbonoffset" element={<CarbonOffset />} />
       </Routes>
       <Footer />
     </BrowserRouter>

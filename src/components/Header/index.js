@@ -182,8 +182,8 @@ const Header = () => {
     {
       title: "Climate Project",
       content: [
-        { label: "Carbon Removal", url: "javascript:void(0)" },
-        { label: "Carbon Offsets", url: "javascript:void(0)" },
+        { label: "Carbon Removal", url: "/carbonremoval" },
+        { label: "Carbon Offsets", url: "/carbonoffset" },
         {
           label: "Waste Management",
           url: "javascript:void(0)",
@@ -289,8 +289,8 @@ const Header = () => {
           <span className="menu-item">
             <a href="/actionproject">Climate Projects</a>
             <span className="content-wrapper">
-              <a href="javascript:void(0)">Carbon Removal</a>
-              <a href="javascript:void(0)">Carbon Offset</a>
+              <a href="/carbonremoval)">Carbon Removal</a>
+              <a href="/carbonoffset">Carbon Offset</a>
               <a href="javascript:void(0)">Waste Management</a>
               <a href="javascript:void(0)">Renewable Energy</a>
             </span>

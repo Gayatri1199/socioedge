@@ -22,7 +22,7 @@ const UpcomingProjectCard = ({ heading, content }) => {
   return (
     <UpcomingProjectCardStyle className="upcoming-project-card">
       <h4 className="h2">{heading}</h4>
-      <p className="a2">{content}</p>
+      <p className="b1">{content}</p>
     </UpcomingProjectCardStyle>
   );
 };

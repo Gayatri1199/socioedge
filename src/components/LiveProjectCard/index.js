@@ -9,6 +9,7 @@ const LiveProjectCardStyle = styled.div`
     width: 100%;
     border-radius: 8px;
     max-height: 295px;
+    object-fit: cover;
   }
 `;
 
