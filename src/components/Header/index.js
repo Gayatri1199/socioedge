@@ -289,7 +289,7 @@ const Header = () => {
           <span className="menu-item">
             <a href="/actionproject">Climate Projects</a>
             <span className="content-wrapper">
-              <a href="/carbonremoval)">Carbon Removal</a>
+              <a href="/carbonremoval">Carbon Removal</a>
               <a href="/carbonoffset">Carbon Offset</a>
               <a href="javascript:void(0)">Waste Management</a>
               <a href="javascript:void(0)">Renewable Energy</a>
