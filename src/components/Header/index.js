@@ -186,7 +186,7 @@ const Header = () => {
         { label: "Carbon Offsets", url: "/carbonoffset" },
         {
           label: "Waste Management",
-          url: "javascript:void(0)",
+          url: "/wastemanagement",
         },
         {
           label: "Renewable Energy",
@@ -291,7 +291,7 @@ const Header = () => {
             <span className="content-wrapper">
               <a href="/carbonremoval">Carbon Removal</a>
               <a href="/carbonoffset">Carbon Offset</a>
-              <a href="javascript:void(0)">Waste Management</a>
+              <a href="/wastemanagement">Waste Management</a>
               <a href="javascript:void(0)">Renewable Energy</a>
             </span>
           </span>

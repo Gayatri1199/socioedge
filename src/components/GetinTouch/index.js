@@ -20,8 +20,12 @@ const GetinTouchStyle = styled.div`
     @media screen and (min-width: 768px) {
       flex-direction: row;
     }
-    button {
+    button,
+    a {
       max-width: 200px;
+      display: block;
+      text-decoration: none;
+      background: #fff;
       padding: 9px;
       text-align: center;
       display: block;
@@ -44,7 +48,9 @@ const GetinTouch = () => {
       <h2 className="d2">Get In Touch With Us</h2>
       <p className="s1">Let us know how we can help!</p>
       <div className="action-btns">
-        <button>Watch Video</button>
+        <a href="../../../Socioedge-Website-final.mp4" target="_blank">
+          Watch Video
+        </a>
         <button className="send-enq">Send Enquiry</button>
       </div>
     </GetinTouchStyle>

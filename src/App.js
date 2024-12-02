@@ -19,6 +19,8 @@ import Media from "./pages/Media";
 import LiveProject from "./pages/LiveProject";
 import CarbonRemoval from "./pages/CarbonRemoval";
 import CarbonOffset from "./pages/CarbonOffset";
+import WasteManagement from "./pages/WasteManagement";
+import RenewableEnergy from "./pages/RenewableEnergy";
 
 export default function App() {
   useEffect(() => {
@@ -41,6 +43,8 @@ export default function App() {
         <Route path="/liveproject" element={<LiveProject />} />
         <Route path="/carbonremoval" element={<CarbonRemoval />} />
         <Route path="/carbonoffset" element={<CarbonOffset />} />
+        <Route path="/wastemanagement" element={<WasteManagement />} />
+        <Route path="/renewablenergy" element={<RenewableEnergy />} />
       </Routes>
       <Footer />
     </BrowserRouter>
