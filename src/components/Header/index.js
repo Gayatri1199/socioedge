@@ -190,7 +190,7 @@ const Header = () => {
         },
         {
           label: "Renewable Energy",
-          url: "javascript:void(0)",
+          url: "/renewablenergy",
         },
       ],
     },
@@ -292,7 +292,7 @@ const Header = () => {
               <a href="/carbonremoval">Carbon Removal</a>
               <a href="/carbonoffset">Carbon Offset</a>
               <a href="/wastemanagement">Waste Management</a>
-              <a href="javascript:void(0)">Renewable Energy</a>
+              <a href="/renewablenergy">Renewable Energy</a>
             </span>
           </span>
 
