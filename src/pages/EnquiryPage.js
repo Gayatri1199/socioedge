@@ -98,6 +98,7 @@ const EnquiryPageStyle = styled.div`
         padding: 12px 16px;
         border-radius: 10px;
         margin-bottom: 24px;
+        font-size: 16px;
         &:focus {
           border: 1px solid #b1a9ad;
           outline: none;

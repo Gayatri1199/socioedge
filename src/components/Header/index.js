@@ -36,8 +36,8 @@ const HeaderStyle = styled.div`
     text-decoration: none;
   }
 
-  button {
-    padding: 4px 16px;
+  .btn {
+    padding: 10px 20px;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
@@ -198,9 +198,9 @@ const Header = () => {
     {
       title: "Why Us",
       content: [
-        { label: "About Us", url: "javascript:void(0)" },
-        { label: "History", url: "javascript:void(0)" },
-        { label: "Our USPs", url: "javascript:void(0)" },
+        { label: "About Us", url: "/aboutus" },
+        { label: "History", url: "/ourhistory" },
+        { label: "Our USPs", url: "/ourUsps" },
         { label: "Our Team", url: "/ourteam" },
         { label: "Testimonials", url: "javascript:void(0)" },
         { label: "Milestones", url: "javascript:void(0)" },
@@ -302,8 +302,8 @@ const Header = () => {
             <a href="/aboutus">Why Us</a>
             <span className="content-wrapper">
               <a href="/aboutus">About Us</a>
-              <a href="javascript:void(0)">History</a>
-              <a href="javascript:void(0)">Our USPs</a>
+              <a href="/ourhistory">History</a>
+              <a href="/ourUsps">Our USPs</a>
               <a href="/ourteam">Our Team</a>
               <a href="javascript:void(0)">Testimonials</a>
               <a href="javascript:void(0)">Milestones</a>
@@ -311,7 +311,9 @@ const Header = () => {
             </span>
           </span>
 
-          <button>Enquire Now</button>
+          <a href="/enquiry" className="btn">
+            Enquire Now
+          </a>
         </div>
         <div className="mob-device">
           <Accordion items={accordionItems} page="header" />
@@ -321,7 +323,9 @@ const Header = () => {
           <a href="/liveproject" style={{ padding: "0" }}>
             Live Projects
           </a>
-          <button>Enquire Now</button>
+          <a href="/enquiry" className="btn">
+            Enquire Now
+          </a>
         </div>
       </div>
     </HeaderStyle>
