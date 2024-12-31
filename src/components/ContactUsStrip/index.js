@@ -39,12 +39,14 @@ const ContactUsStripStyle = styled.div`
     }
   }
 
-  button {
+  .btn {
     width: 100%;
     color: #013e93;
+    text-decoration: none;
     background: #fff;
     border-radius: 100px;
     padding: 9px;
+    text-align: center;
     @media screen and (min-width: 768px) {
       max-width: 200px;
     }
@@ -59,7 +61,9 @@ const ContactUsStrip = () => {
       <p className="h2">
         Contact us to explore how we can work together on Net Zero goals.
       </p>
-      <button className="s2">Contact Us</button>
+      <a href="/contactus" className="s2 btn">
+        Contact Us
+      </a>
     </ContactUsStripStyle>
   );
 };

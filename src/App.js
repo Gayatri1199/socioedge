@@ -28,6 +28,8 @@ import CapacityBuildingProjects from "./pages/CapacityBuildingProjects";
 import ImpactProjectsPage from "./pages/ImpactProjectsPage";
 import OurUspsPage from "./pages/OurUspsPage";
 import EnquiryPage from "./pages/EnquiryPage";
+import MileStone from "./components/Milestone";
+import MilestonePage from "./pages/MilestonePage";
 
 export default function App() {
   useEffect(() => {
@@ -69,6 +71,7 @@ export default function App() {
         <Route path="/impactProjectPage" element={<ImpactProjectsPage />} />
         <Route path="/ourUsps" element={<OurUspsPage />} />
         <Route path="/enquiry" element={<EnquiryPage />} />
+        <Route path="/milestone" element={<MilestonePage />} />
       </Routes>
 
       <Footer />
