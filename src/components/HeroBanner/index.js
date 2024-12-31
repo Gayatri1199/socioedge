@@ -32,7 +32,7 @@ const HeroBannerStyle = styled.div`
 const HeroBanner = ({ page }) => {
   return (
     <HeroBannerStyle>
-      {page === "services" ? (
+      {page === "services" || page === "carbonremovalproject" ? (
         <img
           src="../../../service-main-banner.svg"
           alt="Main banner for services"
@@ -40,6 +40,24 @@ const HeroBanner = ({ page }) => {
       ) : page === "aboutus" ? (
         <img
           src="../../../About_Us_Hero_Image.jpg"
+          alt="About us page banner"
+          className="about-us-banner"
+        />
+      ) : page === "carbonOffsetProjects" ? (
+        <img
+          src="../..//action-project-page/clean-cooking.svg"
+          alt="About us page banner"
+          className="about-us-banner"
+        />
+      ) : page === "impactProjectPage" ? (
+        <img
+          src="../..//impact-projects/I_Banner_1.jpg"
+          alt="About us page banner"
+          className="about-us-banner"
+        />
+      ) : page === "capacitybuildingprojects" ? (
+        <img
+          src="../..//impact-projects/I_Banner_3.JPG"
           alt="About us page banner"
           className="about-us-banner"
         />
@@ -52,7 +70,7 @@ const HeroBanner = ({ page }) => {
       )}
 
       {page !== "services" || page !== "aboutus" ? (
-        <p className="s1">
+        <p className="s1 banner-content">
           Pioneering transformative, community-driven climate projects with
           lasting impact. 
         </p>

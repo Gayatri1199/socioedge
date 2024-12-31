@@ -21,6 +21,13 @@ import CarbonRemoval from "./pages/CarbonRemoval";
 import CarbonOffset from "./pages/CarbonOffset";
 import WasteManagement from "./pages/WasteManagement";
 import RenewableEnergy from "./pages/RenewableEnergy";
+import OurHistory from "./pages/OurHistory";
+import CarbonRemovalProjects from "./pages/CarbonRemovalProjects";
+import CarbonOffsetProjects from "./pages/CarbonOffsetProjects";
+import CapacityBuildingProjects from "./pages/CapacityBuildingProjects";
+import ImpactProjectsPage from "./pages/ImpactProjectsPage";
+import OurUspsPage from "./pages/OurUspsPage";
+import EnquiryPage from "./pages/EnquiryPage";
 
 export default function App() {
   useEffect(() => {
@@ -45,7 +52,25 @@ export default function App() {
         <Route path="/carbonoffset" element={<CarbonOffset />} />
         <Route path="/wastemanagement" element={<WasteManagement />} />
         <Route path="/renewablenergy" element={<RenewableEnergy />} />
+        <Route path="/ourHistory" element={<OurHistory />} />
+        <Route
+          path="/carbonRemovalProjects"
+          element={<CarbonRemovalProjects />}
+        />
+
+        <Route
+          path="/carbonOffsetProjects"
+          element={<CarbonOffsetProjects />}
+        />
+        <Route
+          path="/capacitybuildingprojects"
+          element={<CapacityBuildingProjects />}
+        />
+        <Route path="/impactProjectPage" element={<ImpactProjectsPage />} />
+        <Route path="/ourUsps" element={<OurUspsPage />} />
+        <Route path="/enquiry" element={<EnquiryPage />} />
       </Routes>
+
       <Footer />
     </BrowserRouter>
   );

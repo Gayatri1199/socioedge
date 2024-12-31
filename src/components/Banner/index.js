@@ -54,12 +54,13 @@ const Banner = ({ page }) => {
             a better future.
           </p>
         </>
-      ) : page === "media" ? (
+      ) : page === "ourusps" ? (
         <>
-          <h2 className="d1">Media Gallery</h2>
+          <h2 className="d1">Our USPs</h2>
           <p className="s1">
-            We design specific impact programs that are relevant to both the
-            community and partner’s vision.
+            Imposing a solution without fully understanding the community's
+            needs and challenges may yield immediate, short-term benefits, but
+            it is a recipe for long-term failure.
           </p>
         </>
       ) : (
