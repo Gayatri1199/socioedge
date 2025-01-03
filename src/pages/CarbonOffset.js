@@ -241,7 +241,7 @@ const CarbonOffset = () => {
                       carbon emissions, reduce health risks, and protect the
                       environment.
                     </p>
-                    <a href="javascript:void(0)">Read More</a>
+                    <a href="/carbonOffsetProjects#Afforestation">Read More</a>
                   </div>
                 </div>
                 <div className="card">

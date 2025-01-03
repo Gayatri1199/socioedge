@@ -323,7 +323,7 @@ const WasteManagement = () => {
                 projects that drive innovation, reduce emissions, and create
                 harmony between human progress and environmental preservation.
               </p>
-              <a href="javascript:void(0)">Read More</a>
+              <a href="/renewablenergy">Read More</a>
             </div>
           </div>
         </div>

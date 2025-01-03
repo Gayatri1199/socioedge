@@ -314,7 +314,12 @@ const RenewableEnergy = () => {
                 sustainability, and transform waste into valuable resources.
                 Creating a future where humanity and nature thrive in harmony.
               </p>
-              <a href="javascript:void(0)">Read More</a>
+              <a
+                href="/wastemanagement
+"
+              >
+                Read More
+              </a>
             </div>
           </div>
         </div>

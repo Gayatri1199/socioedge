@@ -228,7 +228,7 @@ const CarbonRemoval = () => {
                       A sustainable solution that sequesters carbon and enhances
                       soil health while supporting rural livelihoods.
                     </p>
-                    <a href="javascript:void(0)">Read More</a>
+                    <a href="/carbonRemovalProjects#Biochar">Read More</a>
                   </div>
                 </div>
                 <div className="card">
@@ -244,7 +244,7 @@ const CarbonRemoval = () => {
                       Transforming barren lands into lush forests to capture
                       carbon, restore ecosystems, and create green jobs.
                     </p>
-                    <a href="javascript:void(0)">Read More</a>
+                    <a href="/carbonRemovalProjects#Afforestation">Read More</a>
                   </div>
                 </div>
               </div>
@@ -279,7 +279,7 @@ const CarbonRemoval = () => {
                 innovative solutions, and creating a balanced relationship
                 between humanity and nature.
               </p>
-              <a href="javascript:void(0)">Read More</a>
+              <a href="/carbonOffsetProjects">Read More</a>
             </div>
           </div>
         </div>

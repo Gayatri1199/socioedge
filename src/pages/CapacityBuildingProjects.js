@@ -221,28 +221,25 @@ const CapacityBuildingProjects = () => {
 
       <div className="blogs-section" id="Afforestation">
         <div className="blog-card">
-          <h2 className="h1 main-heading">Afforestation</h2>
+          <h2 className="h1 main-heading">Terra Leadership</h2>
           <div className="above-content reverse">
             <div className="content">
               <p className="h2">
-                Afforestation is a powerful climate solution that restores
-                ecosystems and mitigates carbon emissions. By planting trees in
-                barren or degraded lands, afforestation enhances carbon
-                sequestration, combating climate change effectively.
+                Terra Leadership develops individuals to lead sustainable and
+                impactful change in their communities. The program focuses on
+                leadership training, environmental awareness, and project
+                execution to address pressing challenges.
               </p>
               <p className="h2">
-                Trees play a crucial role in improving air and water quality,
-                stabilizing soil, and reducing desertification. Through
-                afforestation, we promote environmental sustainability while
-                addressing land degradation challenges. This effort also
-                provides socio-economic benefits for local communities.
-              </p>
-              <p className="h2">
-                Our afforestation projects are designed to maximize
-                environmental and social impact. By engaging stakeholders, we
-                develop sustainable forest solutions that drive climate action,
-                protect ecosystems, and foster long-term resilience against
-                global challenges.
+                By combining theoretical learning with practical experiences,
+                participants are empowered to become change-makers in
+                environmental sustainability and social development. Terra
+                Leadership emphasizes collaboration, critical thinking, and
+                strategic problem-solving to foster well-rounded leaders. Our
+                approach nurtures leadership potential across diverse sectors,
+                creating a network of individuals who can drive measurable and
+                lasting solutions. These leaders bring vision, action, and
+                purpose to shape a better, more sustainable future.
               </p>
             </div>
             <div className="image">
@@ -253,65 +250,49 @@ const CapacityBuildingProjects = () => {
             </div>
           </div>
           <div className="lower-sec">
-            <h2>What is Afforestation?</h2>
+            <h2>Developing Future Leaders</h2>
             <p className="h2">
-              Afforestation refers to the process of planting trees in barren or
-              degraded lands where there was no previous forest cover. This
-              intentional effort to create forests helps restore ecosystems,
-              increase biodiversity, and combat the adverse effects of climate
-              change. Afforestation is a proactive measure that supports both
-              environmental conservation and community well-being.
+              The Terra Leadership program is designed to identify, nurture, and
+              develop individuals who are passionate about driving sustainable
+              change. Our comprehensive training focuses on leadership skills,
+              environmental sustainability, and project execution, empowering
+              participants to address real-world challenges with actionable
+              solutions.
             </p>
-            <h2>Restoring Ecosystems and Biodiversity</h2>
+            <h2>Leadership in Action</h2>
             <p className="h2">
-              Forests are vital for ecological balance. They provide habitats
-              for countless species, conserve biodiversity, and maintain
-              critical ecosystem services like clean air, water filtration, and
-              soil stabilization. Afforestation helps reverse habitat loss and
-              prevents desertification by stabilizing soils, reducing erosion,
-              and enhancing water retention in arid regions. Healthy forests
-              also act as carbon sinks, absorbing carbon dioxide from the
-              atmosphere and reducing global greenhouse gas emissions. This
-              makes afforestation one of the most effective tools in the fight
-              against climate change.
+              Terra Leadership emphasizes experiential learning by combining
+              theoretical knowledge with hands-on experiences. Participants
+              engage in community projects, environmental initiatives, and
+              strategic decision-making exercises. This practical approach
+              ensures that they develop critical problem-solving skills,
+              communication, and the ability to lead teams effectively.
             </p>
-            <h2>Socio-Economic Benefits</h2>
+            <h2>Environmental Sustainability Focus</h2>
             <p className="h2">
-              Afforestation projects bring significant benefits to local
-              communities. By creating green spaces, afforestation generates
-              livelihoods through forestry-based employment, including planting,
-              maintenance, and forest resource management. Communities benefit
-              from increased income, improved agricultural productivity due to
-              better soils, and enhanced access to forest resources like fruits,
-              nuts, and medicinal plants. Afforestation also supports
-              agroforestry systems, where trees and crops are cultivated
-              together to promote sustainable land use. These systems improve
-              food security, diversify income sources, and boost resilience
-              against climate extremes.
+              The program integrates environmental awareness, teaching
+              participants how to design and execute projects that address
+              climate challenges. By fostering a deeper understanding of
+              sustainable practices, we empower future leaders to take
+              initiatives that protect the planet while benefiting local
+              communities.
             </p>
-            <h2>Combating Climate Change</h2>
+            <h2>Building Collaborative Networks</h2>
             <p className="h2">
-              Forests are crucial allies in mitigating climate change. By
-              sequestering carbon dioxide, afforestation offsets emissions from
-              industrial activities and human development. Newly planted forests
-              help cool the environment, regulate local weather patterns, and
-              reduce the heat island effect in urban areas. Afforestation also
-              contributes to achieving global sustainability goals, including
-              combating land degradation (SDG 15), improving climate action (SDG
-              13), and reducing poverty through sustainable forest management
-              (SDG 1).
+              Leadership is strengthened through collaboration. Terra Leadership
+              encourages peer learning and teamwork, connecting participants
+              with mentors, experts, and like-minded change-makers. This
+              collaborative approach builds a global network of leaders
+              committed to creating meaningful and measurable impact.
             </p>
-            <h2>Our Approach</h2>
+            <h2>Long-Term Impact</h2>
             <p className="h2">
-              At SocioEdge, we implement afforestation projects designed for
-              long-term environmental and social impact. Our solutions focus on
-              planting native tree species, restoring degraded lands, and
-              ensuring the sustainability of forests through community
-              engagement and participation. By collaborating with local
-              governments, communities, and organizations, we create
-              afforestation programs that drive measurable outcomes—improving
-              ecosystems, enhancing livelihoods, and supporting global carbon
-              reduction goals.
+              The goal of Terra Leadership is to build leaders who are not only
+              capable of driving projects but also inspiring change within their
+              communities. By equipping participants with the tools, confidence,
+              and vision needed to tackle challenges, we create a ripple effect
+              of leadership, sustainability, and innovation that lasts for
+              generations.
             </p>
           </div>
         </div>
